@@ -10,7 +10,7 @@ import java.nio.file.StandardCopyOption;
 
 @Component
 public class ImageUpload {
-    private final String UPLOAD_FOLDER = "D:\\IT\\Java\\Source\\ecommerce_springboot\\admin\\src\\main\\resources\\static\\img\\image-product";
+    private final String UPLOAD_FOLDER = "D:\\Workspace\\Spring\\SpringBoot\\sea_food\\admin\\src\\main\\resources\\static\\img\\image-product";
     public boolean uploadFile(MultipartFile file) {
         boolean isUpload = false;
         try {
